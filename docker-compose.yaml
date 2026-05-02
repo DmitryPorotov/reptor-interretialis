@@ -1,0 +1,9 @@
+services:
+  nginx:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./nginx.conf:/etc/nginx/sites-enabled/nginx.conf
+    ports:
+      - 80:80
+      - 443:443
