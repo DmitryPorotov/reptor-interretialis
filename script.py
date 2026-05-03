@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+##################################################
+# Great work with templates
+# Claude knows what he is doing.
+
 
 import argparse
 from string import Template
